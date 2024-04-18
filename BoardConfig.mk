@@ -167,7 +167,7 @@ TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
 # Display
 TARGET_SCREEN_DENSITY := 480
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 150
 
