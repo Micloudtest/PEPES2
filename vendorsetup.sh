@@ -34,8 +34,7 @@ fi
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# Version / Maintainer infos
 	export OF_MAINTAINER="Tapin Recovery Instraller"
-	export FOX_VERSION=R12.1_1
-  	export FOX_VARIANT=Beta
+	export FOX_VERSION=R12.1_0
 	export FOX_BUILD_TYPE="Unofficial"
     	export FOX_TARGET_DEVICES="spes,spesn"
 	export TARGET_DEVICE_ALT="spes"
@@ -48,7 +47,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
  	# OTA / DM-Verity / Encryption
 	export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 	export OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR=1	
-  export OF_NO_MIUI_PATCH_WARNING=1
+        export OF_NO_MIUI_PATCH_WARNING=1
 
 	export OF_DONT_PATCH_ON_FRESH_INSTALLATION=1
 	export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
@@ -62,7 +61,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
   export FOX_USE_GREP_BINARY=1
   export FOX_USE_TAR_BINARY=1
   export FOX_USE_ZIP_BINARY=1
-	export FOX_USE_BRX_BINARY=1
+  export FOX_USE_BRX_BINARY=1
   export FOX_USE_SED_BINARY=1
   export FOX_USE_XZ_UTILS=1
   export FOX_REPLACE_BUSYBOX_PS=1
