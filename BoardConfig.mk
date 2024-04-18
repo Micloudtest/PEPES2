@@ -26,7 +26,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 
 # Assertation
-TARGET_OTA_ASSERT_DEVICE := spes,spesn
+#TARGET_OTA_ASSERT_DEVICE := spes,spesn
 
 # Power
 ENABLE_CPUSETS := true
