@@ -27,7 +27,6 @@ TARGET_OTA_ASSERT_DEVICE := spes,spesn
 
 # A/B
 AB_OTA_UPDATER := true
-
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
